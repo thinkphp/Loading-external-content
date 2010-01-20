@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+   <title>AJAX and jQuery</title>
+   <style type="text/css">
+   *{margin:0;padding:0;}
+   body{border:2em solid #fff;font-family:futura,verdana,sans-serif;}
+   a{color:#369}
+   ul{margin:1em}
+   h1{font-size:25px;color:#036;}
+   h2{font-size:18px;margin:10px 0;color:#69c;}
+   .ajaxtrigger span{font-weight:bold;color:#000}
+   .ajaxtrigger span.error{color:#c00}
+   #target,#code{border:1px solid #999;background:#eee;padding:1em;-moz-border-radius:5px;border-radius:5px;-webkit-border-radius:5px;}
+   #target{overflow:auto; max-height:200px;}
+   #ft{font-size:12px;text-align:right;}
+   </style>
+</head>
+<body>
+<div id="doc2" class="yui-t7">
+   <div id="hd" role="banner"><h1>AJAX with jQuery (obtrusive)</h1></div>
+   <div id="bd" role="main">
+	<div class="yui-g">
+         <h2>Demo</h2>
+         <ul><li><a href="#" class="ajaxtrigger">Ajax load content</a></li></ul>
+         <div id="target"></div>
+         <h2>Source Code</h2>
+         <div id="code"></div>
+	</div>
+	</div>
+   <ul id="nav"><li><a href="../reusable-ajax/reusable-ajax.html">next: make it reusable</a></li></ul>
+   <div id="ft" role="contentinfo"><p>AJAX with jQuery</p></div>
+</div>
+<script src="http://code.jquery.com/jquery-latest.pack.js"></script>
+<script src="code.js"></script>
+<script src="simple-ajax.js"></script>
+</body>
+</html>
